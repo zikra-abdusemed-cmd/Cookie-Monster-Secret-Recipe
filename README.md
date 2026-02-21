@@ -67,16 +67,6 @@ If it’s URL-encoded, decode it first (many online tools or decodeURIComponent(
 Paste the decoded string into a Base64 decoder like https://www.base64decode.org/
 .
 
-The decoded value is your flag / secret recipe.
+The decoded value is your flag 
 
-Example:
 
-Found cookie value (URL-encoded Base64):
-
-cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0M0MzBBRTIwfQ%3D%3D
-
-After URL decoding and Base64 decoding:
-
-picoCTF{c00k1e_m0nster_l0ves_c00kies_C430AE20}
-
-This is the hidden secret recipe.
