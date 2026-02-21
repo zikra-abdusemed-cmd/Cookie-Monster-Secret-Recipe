@@ -13,8 +13,11 @@ Open the website where the challenge is hosted.
 Familiarize yourself with the page: look for visible elements such as text, links, images, buttons, or any interactive components.
 
 Try logging in with any credentials to trigger the cookie logs. This will help you inspect the cookies later.
+![Cookie Monster inspecting cookies](images/login.png)
 
 2. Inspect the Webpage
+
+   ![Cookie Monster inspecting cookies](images/inspect.png)
 
 Modern browsers provide built-in developer tools to inspect webpages:
 
@@ -33,10 +36,13 @@ This opens the Elements panel, showing the HTML structure of the page.
 Since this challenge references "Cookie Monster," cookies are a key part of the solution:
 
 Open the cookies panel:
+![Cookie Monster inspecting cookies](images/application.png)
 
 Chrome/Edge: Application → Storage → Cookies
 
 Firefox: Storage → Cookies
+
+![Cookie Monster inspecting cookies](images/cookie.png)
 
 Look for cookies that contain:
 
@@ -55,6 +61,8 @@ Click on the relevant cookie and scroll to the value field.
 Copy the value.
 
 If it’s URL-encoded, decode it first (many online tools or decodeURIComponent() in the browser console work).
+
+![Cookie Monster inspecting cookies](images/checkbox.png)
 
 Paste the decoded string into a Base64 decoder like https://www.base64decode.org/
 .
