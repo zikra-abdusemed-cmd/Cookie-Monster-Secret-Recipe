@@ -6,6 +6,8 @@ This walkthrough explains how to uncover Cookie Monster's hidden secret recipe i
 
 1. Launch the Challenge
 
+   ![Cookie Monster inspecting cookies](images/challeng.png)
+
 Open the website where the challenge is hosted.
 
 Familiarize yourself with the page: look for visible elements such as text, links, images, buttons, or any interactive components.
